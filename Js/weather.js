@@ -1,4 +1,4 @@
-import {Config} from "./config.js";
+import {Config} from "../config.js";
 import {Graph} from "./graph.js";
 
 const key = Config.key;
