@@ -1,5 +1,6 @@
 import {Config} from "../config.js";
 import {Graph} from "./graph.js";
+import {currentTime} from "./time.js";
 
 const key = Config.key;
 let renderWeather = document.getElementById("weather")
@@ -140,6 +141,7 @@ export const getWeatherData = function() {
             }
             let graph = new Graph(graph_temp, graph_date)
             graph.draw();
+            //currentTime()
         },
 
 

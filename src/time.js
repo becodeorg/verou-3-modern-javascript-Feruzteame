@@ -1,7 +1,7 @@
-let currentTiming = document.getElementById("currentTime");
 
- // get current Time
- function currentTime(){
+// get current Time
+function currentTime() {
+const currentTiming = document.getElementById("currentTime")
     const date = new Date();
     let hour = date.getHours();
     let min = date.getMinutes();
@@ -15,9 +15,12 @@ let currentTiming = document.getElementById("currentTime");
         let time = `<span>${hour}:${min}</span> pm`
         currentTiming.innerHTML = time; 
     }
-   let t = setTimeout(function(){ currentTime() }, 1000)
+   let timing = setTimeout(function(){ currentTime() }, 1000)
+
   }
   currentTime()
+
+
  
 
   
