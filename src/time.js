@@ -1,6 +1,6 @@
 
 // get current Time
-function currentTime() {
+ function currentTime() {
 const currentTiming = document.getElementById("currentTime")
     const date = new Date();
     let hour = date.getHours();
@@ -16,9 +16,10 @@ const currentTiming = document.getElementById("currentTime")
         currentTiming.innerHTML = time; 
     }
    let timing = setTimeout(function(){ currentTime() }, 1000)
-
+   
   }
   currentTime()
+  
 
 
  
