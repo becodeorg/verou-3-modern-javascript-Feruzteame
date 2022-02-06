@@ -1,5 +1,4 @@
-import {getWeatherData} from "./weather.js";
+import { getWeatherData } from "./weather.js";
 
-const submit = document.getElementById("submit")
-submit.addEventListener('click', getWeatherData) 
-
+const submit = document.getElementById("submit");
+submit.addEventListener("click", getWeatherData);
